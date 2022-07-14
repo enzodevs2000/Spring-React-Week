@@ -24,6 +24,20 @@ public class Sale {
 	public Sale() {
 		
 	}
+	
+	
+
+	public Long getId() {
+		return id;
+	}
+
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+
 
 	public String getSeller_name() {
 		return seller_name;
